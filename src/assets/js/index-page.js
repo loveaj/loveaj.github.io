@@ -7,7 +7,7 @@ import fullpage from 'fullpage.js';
 
 // Initializing it
 var fullPageInstance = new fullpage('#sitefullpage', {
-	anchors:['section1', 'section2', 'section3', 'section4', 'section5', 'section6'],
+	anchors:['home', 'profile', 'experience', 'skills', 'education', 'contact'],
     //License key
     licenseKey: null,
     //Navigation
