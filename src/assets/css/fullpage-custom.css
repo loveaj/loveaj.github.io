@@ -1,0 +1,56 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "fullpage.css";
+
+.section {
+    text-align: left;
+}
+
+.section-title {
+    font-family: dosis,sans-serif;
+}
+
+.section-heading, .section-intro, .section-body-text {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.profile-photo::after {
+    box-shadow: inset 0 2px 4px 0 hsla(0,0%,0%,.2);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.border-top {
+    border-top: 1px solid #9AA5B1!important;
+}
+
+#fp-nav ul li {
+    margin: 15px;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #DA4A91;
+}
+
+#fp-nav ul li .fp-tooltip {
+    color: #DA4A91;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.0rem;
+    font-weight: 600;
+    padding: 5px;
+    top: -10px;
+ }
+
+ .fp-tableCell {
+    vertical-align: text-top;
+ }

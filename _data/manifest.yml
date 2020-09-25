@@ -1,0 +1,6 @@
+{
+  "fullpagecustom.css": "./assets/fullpagecustom.css",
+  "fullpagecustom.js": "./assets/fullpagecustom.bundle.js",
+  "indexpage.js": "./assets/indexpage.bundle.js",
+  "fullpage-custom.css": "./assets/profile-portrait-circle.png"
+}
