@@ -3,7 +3,9 @@ Personal website using GitHub Pages
 
 ## GitHub Pages site
 This GitHub project is a user site as determined by the project name `loveaj.github.io`.  
-Changes pushed to the remote master (GitHub) trigger a Jekyll build on GitHub. The generated files are moved over to the GitHub Pages server farm automatically.
+Changes pushed to the remote master (GitHub) trigger a Jekyll build on GitHub. The generated files are moved over to the GitHub Pages server farm automatically.  
+
+The site does not really make use of much Jekyll functionality. If it turns into more of a blog site then maybe ...
 
 
 ## Local build JS and CSS - Webpack
