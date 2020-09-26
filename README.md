@@ -3,10 +3,13 @@ Personal website using GitHub Pages
 
 ## GitHub Pages site summary
 This GitHub project is a user site as determined by the project name `loveaj.github.io`.  
+GitHub Pages make use of Jekyll.  
 Changes pushed to the remote master (GitHub) trigger a Jekyll build on GitHub. The generated files are moved over to the GitHub Pages server farm automatically.  
 
 The site does not really make use of much Jekyll functionality. If it turns into more of a blog site then maybe ...  
 
+For GitHub Pages docs see: `https://pages.github.com/`
+For Jekyll docs see: `https://jekyllrb.com/`  
 The single page functionality is provided by `fullPage.js`, see: `https://alvarotrigo.com/fullPage/`  
 Styling uses the utility-first CSS framework `tailwindcss`, see: `https://tailwindcss.com/`
 
