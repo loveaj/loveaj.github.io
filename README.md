@@ -14,7 +14,7 @@ Styling uses the utility-first CSS framework `tailwindcss`, see: `https://tailwi
 
 1. **Extract CSS components** - There is a fair bit of common styling across sections so these could be extracted out to give cleaner markup.
 2. **Responsive design** - Add different looks for different media breakpoints.
-3. **Make more use of Jekyll** - Maybe some of teh text could be moved to markdown files, etc.
+3. **Make more use of Jekyll** - Maybe some of the text could be moved to markdown files, etc.
 
 ## Workflow
 
