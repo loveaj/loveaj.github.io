@@ -8,7 +8,7 @@ Changes pushed to the remote master (GitHub) trigger a Jekyll build on GitHub. T
 
 The site does not really make use of much Jekyll functionality. If it turns into more of a blog site then maybe ...  
 
-For GitHub Pages docs see: `https://pages.github.com/`
+For GitHub Pages docs see: `https://pages.github.com/`  
 For Jekyll docs see: `https://jekyllrb.com/`  
 The single page functionality is provided by `fullPage.js`, see: `https://alvarotrigo.com/fullPage/`  
 Styling uses the utility-first CSS framework `tailwindcss`, see: `https://tailwindcss.com/`
@@ -16,7 +16,7 @@ Styling uses the utility-first CSS framework `tailwindcss`, see: `https://tailwi
 ## TO-DO
 
 1. **Extract CSS components** - There is a fair bit of common styling across sections so these could be extracted out to give cleaner markup.
-2. **Responsive design** - Add different looks for different media breakpoints.
+2. **Responsive design** - Add different looks and text sizes for different media breakpoints.
 3. **Make more use of Jekyll** - Maybe some of the text could be moved to markdown files, etc.
 
 ## Workflow

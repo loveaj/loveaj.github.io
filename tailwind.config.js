@@ -22,5 +22,7 @@ module.exports = {
          'profile-pattern': "url('../img/profile-portrait-circle.png')",
       })
     }
-  }
+  },
+  variants: {},
+  plugins: [],
 }
