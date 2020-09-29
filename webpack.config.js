@@ -9,6 +9,7 @@ module.exports = {
     entry: {
         indexpage: path.resolve(__dirname, './src/assets/js/index-page.js'),
         fullpagecustom: path.resolve(__dirname, './src/assets/css/fullpage-custom.css'),
+        favicon: path.resolve(__dirname, './src/assets/img/favicon.png'),
     },
     output: {
         path: path.resolve(__dirname, './assets/'),
