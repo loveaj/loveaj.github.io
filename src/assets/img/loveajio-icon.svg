@@ -50,7 +50,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="background">
+     inkscape:label="background"
+     style="display:none">
     <rect
        id="rect45"
        width="110"
@@ -68,8 +69,8 @@
     <g
        id="g24"
        transform="matrix(0.93012216,0,0,0.90739728,7.7440936,-70.339052)"
-       inkscape:export-xdpi="9.2399998"
-       inkscape:export-ydpi="9.2399998"
+       inkscape:export-xdpi="10.16"
+       inkscape:export-ydpi="10.16"
        style="fill:#da4a91;fill-opacity:1;stroke:#da4a91;stroke-opacity:1">
       <path
          style="fill:#da4a91;fill-opacity:1;stroke:#da4a91;stroke-width:0.264583;stroke-opacity:1"

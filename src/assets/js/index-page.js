@@ -22,6 +22,7 @@ var fullPageInstance = new fullpage('#sitefullpage', {
 	autoScrolling: false,
 	fitToSection: true,
 	fitToSectionDelay: 1000,
+	bigSectionsDestination: top,
 	scrollBar: false,
 	easing: 'easeInOutCubic',
 	easingcss3: 'ease',
