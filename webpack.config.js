@@ -10,6 +10,7 @@ module.exports = {
         indexpage: path.resolve(__dirname, './src/assets/js/index-page.js'),
         fullpagecustom: path.resolve(__dirname, './src/assets/css/fullpage-custom.css'),
         favicon: path.resolve(__dirname, './src/assets/img/favicon.png'),
+        cvdoc: path.resolve(__dirname, './src/assets/pdf/Andrew_Love_CV_2020.pdf'),
     },
     output: {
         path: path.resolve(__dirname, './assets/'),
@@ -32,7 +33,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpe?g|gif)$/i,
+                test: /\.(png|jpe?g|gif|pdf)$/i,
                 loader: 'file-loader',
                 options: {
                     name(resourcePath, resourceQuery) {

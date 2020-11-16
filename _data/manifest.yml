@@ -1,8 +1,10 @@
 {
+  "cvdoc.js": "./assets/cvdoc.bundle.js",
   "favicon.js": "./assets/favicon.bundle.js",
   "fullpagecustom.css": "./assets/fullpagecustom.css",
   "fullpagecustom.js": "./assets/fullpagecustom.bundle.js",
   "indexpage.js": "./assets/indexpage.bundle.js",
+  "Andrew_Love_CV_2020.pdf": "./assets/Andrew_Love_CV_2020.pdf",
   "fullpage-custom.css": "./assets/profile-portrait-circle.png",
   "favicon.png": "./assets/favicon.png"
 }

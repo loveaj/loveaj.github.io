@@ -1,0 +1,40 @@
+<ges version='0.7'>
+  <project properties='properties;' metadatas='metadatas, author=(string)&quot;Andrew\ Love&quot;, scaled_proxy_width=(int)1920, scaled_proxy_height=(int)1080, pitivi::title_safe_area_vertical=(double)0.80000000000000004, pitivi::title_safe_area_horizontal=(double)0.80000000000000004, pitivi::action_safe_area_vertical=(double)0.90000000000000002, pitivi::action_safe_area_horizontal=(double)0.90000000000000002, render-scale=(double)100, pitivi::project-id=(string)453ecdf4245a402ca0f523f80e1fa081, format-version=(string)0.7, year=(string)2020;'>
+    <encoding-profiles>
+      <encoding-profile name='pitivi-profile' description='Pitivi encoding profile' type='container' preset-name='webmmux' format='video/webm' >
+        <stream-profile parent='pitivi-profile' id='0' type='video' presence='0' format='video/x-vp8, profile=(string){ 0, 1, 2, 3 }' preset='encoder_settings_01b81fc5df124f8dbfca8267aca3847d' preset-properties='properties, end-usage=(int)0, target-bitrate=(int)256000, resize-up-threshold=(int)60, resize-down-threshold=(int)30, twopass-vbr-maxsection=(int)400, keyframe-mode=(int)1, multipass-mode=(int)0, error-resilient=(int)0, horizontal-scaling-mode=(int)0, vertical-scaling-mode=(int)0, token-partitions=(int)0, tuning=(int)0;' preset-name='vp8enc' restriction='video/x-raw, width=(int)1920, height=(int)1080, framerate=(fraction)30000/1001, pixel-aspect-ratio=(fraction)1/1' pass='0' variableframerate='0' />
+        <stream-profile parent='pitivi-profile' id='1' type='audio' presence='0' enabled='0' format='audio/x-vorbis, rate=(int)[ 1, 200000 ], channels=(int)[ 1, 255 ]' preset-name='vorbisenc' restriction='audio/x-raw, channels=(int)2, rate=(int)48000' />
+      </encoding-profile>
+      <encoding-profile name='default' description='Youtube recommended profile with automatic audio setting' type='container' preset='Profile YouTube' preset-properties='properties, start-time-selection=(int)0, faststart=(boolean)true, faststart-file=(string)/tmp/qtmux662256633, dts-method=(int)1;' preset-name='qtmux' format='video/quicktime' >
+        <stream-profile parent='default' id='0' type='audio' presence='0' format='audio/mpeg, mpegversion=(int)4, base-profile=(string)lc' preset-name='fdkaacenc' restriction='audio/x-raw, channels=(int)2, rate=(int)48000' />
+        <stream-profile parent='default' id='1' type='video' presence='0' format='video/x-h264, profile=(string)high' preset='encoder_settings_764165d40ae9438c829b07a7ce63da53' preset-properties='properties, pass=(int)5, me=(int)1, analyse=(int)0, speed-preset=(int)6, psy-tune=(int)0, tune=(int)0, frame-packing=(int)-1;' preset-name='x264enc' restriction='video/x-raw, width=(int)1920, height=(int)1080, framerate=(fraction)30000/1001, pixel-aspect-ratio=(fraction)1/1' pass='0' variableframerate='0' />
+      </encoding-profile>
+    </encoding-profiles>
+    <ressources>
+      <asset id='file:///home/lovea/Downloads/Cern%20-%206173.mp4' extractable-type-name='GESUriClip' properties='properties, supported-formats=(int)4, duration=(guint64)19652966666;' metadatas='metadatas, video-codec=(string)&quot;H.264\ /\ AVC&quot;, bitrate=(uint)4490455, datetime=(datetime)2016-10-30T21:19:42Z, container-format=(string)&quot;ISO\ MP4/M4A&quot;, file-size=(guint64)11039845;' >
+        <stream-info id='ef6033bc77a9919e7f43dc1f3ad9d9cd4cd73e451cc7b655c032e242bee666aa/001' extractable-type-name='GESVideoUriSource' properties='properties, track-type=(int)4;' metadatas='metadatas;' caps='video/x-h264, stream-format=(string)avc, alignment=(string)au, level=(string)4, profile=(string)high, codec_data=(buffer)01640028ffe1001d67640028acd940780227e5c05a808080a000007d20001d4c01e30632c001000568e93b2c8b, width=(int)1920, height=(int)1080, framerate=(fraction)30000/1001, pixel-aspect-ratio=(fraction)1/1, colorimetry=(string)bt709, chroma-format=(string)4:2:0, bit-depth-luma=(uint)8, bit-depth-chroma=(uint)8, parsed=(boolean)true'/>
+      </asset>
+    </ressources>
+    <timeline properties='properties, auto-transition=(boolean)true, snapping-distance=(guint64)606207565;' metadatas='metadatas, markers=(GESMarkerList)&quot;EMPTY&quot;, duration=(guint64)19652966666;'>
+      <track caps='video/x-raw(ANY)' track-type='4' track-id='0' properties='properties, message-forward=(boolean)true, restriction-caps=(string)&quot;video/x-raw\,\ width\=\(int\)1920\,\ height\=\(int\)1080\,\ framerate\=\(fraction\)30000/1001\,\ pixel-aspect-ratio\=\(fraction\)1/1&quot;, id=(string)35753c87c56d39ee3a2b5e2fede6deac;' metadatas='metadatas;'/>
+      <track caps='audio/x-raw(ANY)' track-type='2' track-id='1' properties='properties, message-forward=(boolean)true, restriction-caps=(string)&quot;audio/x-raw\,\ rate\=\(int\)48000\,\ channels\=\(int\)2&quot;, id=(string)197b4eaa6f1dfab1a7b8006a2c8bc44d;' metadatas='metadatas;'/>
+      <layer priority='0' properties='properties, auto-transition=(boolean)true;' metadatas='metadatas, volume=(float)1;'>
+        <clip id='0' asset-id='file:///home/lovea/Downloads/Cern%20-%206173.mp4' type-name='GESUriClip' layer-priority='0' track-types='4' start='0' duration='19652966666' inpoint='0' rate='0' properties='properties, name=(string)uriclip0;' metadatas='metadatas;'>
+          <effect asset-id='frei0r-filter-tint0r' clip-id='0' type-name='GESEffect' track-type='4' track-id='0' properties='properties, track-type=(int)4;' metadatas='metadatas;' children-properties='properties, frei0r-filter-tint0r::map-black-to-b=(float)0.75, frei0r-filter-tint0r::map-black-to-g=(float)0.4305555522441864, frei0r-filter-tint0r::map-black-to-r=(float)0.62999999523162842, frei0r-filter-tint0r::map-white-to-b=(float)0.4583333432674408, frei0r-filter-tint0r::map-white-to-g=(float)1, frei0r-filter-tint0r::map-white-to-r=(float)0.5, GstBaseTransform::qos=(boolean)true, frei0r-filter-tint0r::tint-amount=(double)0.29999999999999999;'>
+          </effect>
+          <effect asset-id='frei0r-filter-brightness' clip-id='0' type-name='GESEffect' track-type='4' track-id='0' properties='properties, track-type=(int)4;' metadatas='metadatas;' children-properties='properties, frei0r-filter-brightness::brightness=(double)0.171875, GstBaseTransform::qos=(boolean)true;'>
+          </effect>
+          <effect asset-id='frei0r-filter-white-balance' clip-id='0' type-name='GESEffect' track-type='4' track-id='0' properties='properties, track-type=(int)4;' metadatas='metadatas;' children-properties='properties, frei0r-filter-white-balance::green-tint=(double)8.8817841970012523e-16, frei0r-filter-white-balance::neutral-color-b=(float)0.89999997615814209, frei0r-filter-white-balance::neutral-color-g=(float)0.89999997615814209, frei0r-filter-white-balance::neutral-color-r=(float)0.89999997615814209, GstBaseTransform::qos=(boolean)true;'>
+          </effect>
+          <effect asset-id='videorate' clip-id='0' type-name='GESEffect' track-type='4' track-id='0' properties='properties, track-type=(int)4;' metadatas='metadatas;' children-properties='properties, GstVideoRate::average-period=(guint64)0, GstVideoRate::drop-only=(boolean)false, GstVideoRate::max-duplication-time=(guint64)0, GstVideoRate::max-rate=(int)2147483647, GstVideoRate::new-pref=(double)1, GstBaseTransform::qos=(boolean)false, GstVideoRate::rate=(double)1, GstVideoRate::silent=(boolean)true, GstVideoRate::skip-to-first=(boolean)false;'>
+          </effect>
+          <source track-id='0' properties='properties, track-type=(int)4, has-internal-source=(boolean)true;'  children-properties='properties, GstFramePositioner::alpha=(double)1, GstFramePositioner::height=(int)1080, GstFramePositioner::posx=(int)0, GstFramePositioner::posy=(int)0, GstVideoDirection::video-direction=(int)8, GstFramePositioner::width=(int)1920;'>
+            <binding type='direct' source_type='interpolation' property='alpha' mode='1' track_id='0' values =' 0:1  8244422890:1  19652966666:1 '/>
+          </source>
+        </clip>
+      </layer>
+      <groups>
+      </groups>
+    </timeline>
+  </project>
+</ges>
