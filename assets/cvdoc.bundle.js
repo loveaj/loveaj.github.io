@@ -81,20 +81,20 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/assets/pdf/Andrew_Love_CV_2020.pdf");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/assets/pdf/Andrew_Love_CV_2021.pdf");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/assets/pdf/Andrew_Love_CV_2020.pdf":
+/***/ "./src/assets/pdf/Andrew_Love_CV_2021.pdf":
 /*!************************************************!*\
-  !*** ./src/assets/pdf/Andrew_Love_CV_2020.pdf ***!
+  !*** ./src/assets/pdf/Andrew_Love_CV_2021.pdf ***!
   \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"Andrew_Love_CV_2020.pdf\");\n\n//# sourceURL=webpack:///./src/assets/pdf/Andrew_Love_CV_2020.pdf?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"Andrew_Love_CV_2021.pdf\");\n\n//# sourceURL=webpack:///./src/assets/pdf/Andrew_Love_CV_2021.pdf?");
 
 /***/ })
 
