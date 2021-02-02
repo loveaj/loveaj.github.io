@@ -10,6 +10,8 @@ module.exports = {
         indexpage: path.resolve(__dirname, './src/assets/js/index-page.js'),
         fullpagecustom: path.resolve(__dirname, './src/assets/css/fullpage-custom.css'),
         favicon: path.resolve(__dirname, './src/assets/img/favicon.png'),
+        linkicon: path.resolve(__dirname, './src/assets/img/link-solid.png'),
+        linkedinicon: path.resolve(__dirname, './src/assets/img/linkedin-logo.png'),
         cvdoc: path.resolve(__dirname, './src/assets/pdf/Andrew_Love_CV_2021.pdf'),
     },
     output: {

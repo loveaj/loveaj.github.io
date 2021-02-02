@@ -4,7 +4,11 @@
   "fullpagecustom.css": "./assets/fullpagecustom.css",
   "fullpagecustom.js": "./assets/fullpagecustom.bundle.js",
   "indexpage.js": "./assets/indexpage.bundle.js",
+  "linkedinicon.js": "./assets/linkedinicon.bundle.js",
+  "linkicon.js": "./assets/linkicon.bundle.js",
   "Andrew_Love_CV_2021.pdf": "./assets/Andrew_Love_CV_2021.pdf",
   "fullpage-custom.css": "./assets/profile-portrait-circle.png",
-  "favicon.png": "./assets/favicon.png"
+  "favicon.png": "./assets/favicon.png",
+  "link-solid.png": "./assets/link-solid.png",
+  "linkedin-logo.png": "./assets/linkedin-logo.png"
 }
