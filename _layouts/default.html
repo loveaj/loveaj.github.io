@@ -1,14 +1,18 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179236009-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-179236009-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179236009-1');
     </script>
 
     <title>{{ page.title }}</title>
@@ -17,438 +21,399 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:400,700%7COpen+Sans:300,600,700&amp;subset=latin,latin" media="all">
     <link rel="icon" type="image/png" href="{{ site.data.manifest['favicon.png'] }}">
-    
-    <meta name="author" content="Andrew Love" />	
-		<meta name="description" content="This is Andrew Love's personal portfolio site. I am an Infrastructure architect and engineer as well as a Developer advocate." />
+
+    <meta name="author" content="Andrew Love" />
+    <meta name="description" content="This is Andrew Love's personal portfolio site. I am an Infrastructure architect and engineer as well as a Developer advocate." />
     <meta name="keywords" content="Andrew Love, Online Resume, Personal Portfolio, Infrastructure Architect, Infrastructure Engineer, SRE, Developer Advocate" />
     <meta property="og:title" content="Andrew Love - folio">
     <meta property="og:description" content="Personal portfolio for Andrew Love">
     <meta property="og:url" content="https://loveaj.io">
-		<meta name="robots" content="index, follow" />
-  </head>
-  <body>
+    <meta name="robots" content="index, follow" />
+</head>
+
+<body>
     <div id="sitefullpage">
-      <!-- ================ -->
-      <!-- SECTION 1 - HOME -->
-      <!-- ================ -->
-      <div class="bg-center bg-cover section border-top bg-hero-pattern" data-anchor="home">
-        <!-- Title -->
-        <div class="box-content object-left-top w-3/5 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest text-white uppercase border-b lg:w-2/5 section-title border-darkpink">
-          Andrew Love
-        </div>
-        <!-- Content -->
-        <div class="box-content w-3/5 mt-5 mb-5 ml-20 text-2xl text-white md:text-3xl lg:text-2xl section-intro">
-          <p>Infrastructure architect and engineer</p>
-          <p>Developer advocate</p>
+        <!-- ================ -->
+        <!-- SECTION 1 - HOME -->
+        <!-- ================ -->
+        <div class="bg-center bg-cover section border-top bg-hero-pattern" data-anchor="home">
+            <!-- Title -->
+            <div class="box-content object-left-top w-3/5 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest text-white uppercase border-b lg:w-2/5 section-title border-darkpink">
+                Andrew Love
+            </div>
+            <!-- Content -->
+            <div class="box-content w-3/5 mt-5 mb-5 ml-20 text-2xl text-white md:text-3xl lg:text-2xl section-intro">
+                <p>Infrastructure architect and engineer</p>
+                <p>Solutions architect</p>
 
-          <div class="flex inline-block mt-8">
-            <span class="mt-auto mb-auto text-2xl text-gray-500 md:text-3xl lg:text-2xl">
+                <div class="flex inline-block mt-8">
+                    <span class="mt-auto mb-auto text-2xl text-gray-500 md:text-3xl lg:text-2xl">
               <span class="pr-5 align-middle fas fa-map-marker-alt">
-              </span>
-              London, UK
-            </span>
-          </div>
+              </span> London, UK
+                    </span>
+                </div>
 
-        </div>
-        <!-- Bouncy down prompt -->
-        <div class="box-content absolute bottom-0 ml-20">
-          <a href="#profile">
-            <span class="text-4xl text-opacity-50 fas fa-chevron-circle-down animate-bounce text-darkpink hover:text-opacity-100">
-            </span>
-          </a>
-        </div>
-      </div>
-
-      <!-- =================== -->
-      <!-- SECTION 2 - PROFILE -->
-      <!-- =================== -->
-      <div class="section fp-auto-height-responsive border-top" data-anchor="profile">
-        <!-- Heading -->
-        <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
-            Profile
-        </div>
-        <!-- Content -->
-        <div class="container px-6">
-          <div class="flex mt-12 mb-5 ml-12">
-            <div class="box-content flex-none w-1/6">
-              <div class="rounded-full shadow-lg">
-                <img src="assets/profile-portrait-circle.png"/>
-              </div>
             </div>
-            <div class="box-content flex-grow max-w-2xl pl-10 ml-10 text-lg text-justify text-black border-l section-body-text border-darkpink">
-              <p>
-                I am a passionate geek with an innate curiosity about using software to build 
-                better systems for business and better products for users. I have over 30 years
-                of experience in Fintech, ranging from software development to DevOps to on-
-                premise and cloud infrastructure. I have guided teams as the product manager for
-                the FNZ/JHC FIGARO web, mobile and REST API product set. I have championed the use
-                of open source software and the engagement in OSS and DevOps communities. 
-              </p>
-              <p class="pt-5">
-                As a partner/director I have helped create a successful Fintech company and
-                experienced its growth phases from a start-up of 10 people to its current 250+
-                employees. All of this, from day one, has been done in close collaboration with
-                clients. I have extensive experience in BA, consultant and pre-sales roles.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- ====================== -->
-      <!-- SECTION 3 - EXPERIENCE -->
-      <!-- ====================== -->
-      <div class="section fp-auto-height-responsive border-top" data-anchor="experience">
-        <!-- Heading -->
-        <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
-          Experience
-        </div>
-
-        <!-- Content -->
-        <div class="container px-6">
-          <div class="flex flex-col mt-12 mb-5 ml-12">
-
-            <div class="box-content flex-grow pl-10 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Infrastructure Architect and Consultant &commat; FNZ/JHC Systems Ltd
-                <a href="https://www.jhc.financial" class="font-normal text-green-700">
-                  <span class="pl-5 pr-1 align-middle fas fa-link">
-                  </span>
-                  https://www.jhc.financial
+            <!-- Bouncy down prompt -->
+            <div class="box-content absolute bottom-0 ml-20">
+                <a href="#profile">
+                    <span class="text-4xl text-opacity-50 fas fa-chevron-circle-down animate-bounce text-darkpink hover:text-opacity-100">
+            </span>
                 </a>
-              </p>
-              <p class="text-base text-gray-600 section-body-text">
-                2001 - 2019
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                Design and implementation of infrastructure for on-premise, managed service (private cloud) and public cloud deployments of the FNZ/JHC FIGARO wealth management system. 
-                Covering networking, server specifications, 3rd-party communications, security, virtualisation, high availability, replication and disaster recovery. 
-                Technology reviews and upgrades to increase availability, scalability and drive down total cost of ownership.
-              </p>     
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                Supporting DevOps practices through the introduction of Ansible automation, Docker, Kubernetes container management and the insertion of Ops into development projects.
-              </p>           
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                Pre-sales support covering infrastructure and product integrations.
-              </p>  
             </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Product Manager &commat; FNZ/JHC Systems Ltd
-              </p>
-              <p class="text-base text-gray-600 section-body-text">
-                2001 - 2019
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                Product manager responsible for:
-              </p>     
-              <p class="max-w-2xl pt-2 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>FNZ/JHC FIGARO web portal for retail & wealth management clients.</li>
-                  <li>FNZ/JHC FIGARO mobile app for wealth management clients.</li>
-                  <li>FNZ/JHC FIGARO REST API.</li>
-                </ul>
-              </p>           
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                Roadmap strategy and technical/UX/UI design governance, client and market research, project funding.
-              </p> 
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                IT Manager &commat; JHC Systems Ltd
-              </p>
-              <p class="text-base text-gray-600 section-body-text">
-                2007 - 2012
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                Responsible for all internal IT including the design and implementation of LANs, WAN, network security, data centre co-location, data backup, 
-                disaster recovery, telephony, office moves, desktop standardisation, email, document management, IBM Power Systems and vendor management.
-              </p>     
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Senior Developer and Consultant &commat; JHC Systems Ltd
-              </p>
-              <p class="text-base text-gray-600 section-body-text">
-                1991 - 2000
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                JHC FIGARO stockbroking and wealth management system, specialising in 3rd-party systems integration. <br/>
-                Java, Delphi and RPG
-              </p>     
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Developer and Consultant &commat; JHC Systems Ltd
-              </p>
-              <p class="text-base text-gray-600 section-body-text">
-                1988 - 1990
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                JHC Legal Accounting system and JHC FIGARO stockbroking and wealth management system. <br/>
-                RPG
-              </p>     
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- ================== -->
-      <!-- SECTION 4 - SKILLS -->
-      <!-- ================== -->
-      <div class="section fp-auto-height-responsive border-top" data-anchor="skills">
-        <!-- Heading -->
-        <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
-          Skills
         </div>
 
-        <!-- Content -->
-        <div class="container px-6">
-          <div class="flex flex-col mt-12 mb-5 ml-12">
+        <!-- =================== -->
+        <!-- SECTION 2 - PROFILE -->
+        <!-- =================== -->
+        <div class="section fp-auto-height-responsive border-top" data-anchor="profile">
+            <!-- Heading -->
+            <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
+                Profile
+            </div>
+            <!-- Content -->
+            <div class="container px-6">
+                <div class="flex mt-12 mb-5 ml-12">
+                    <div class="box-content flex-none w-1/6">
+                        <div class="rounded-full shadow-lg">
+                            <img src="assets/profile-portrait-circle.png" />
+                        </div>
+                    </div>
+                    <div class="box-content flex-grow max-w-2xl pl-10 ml-10 text-lg text-justify text-black border-l section-body-text border-darkpink">
+                        <p>
+                            I am a passionate geek with an innate curiosity about using software to build better systems for business and better products for users. I have over 30 years of experience in Fintech, ranging from software development to DevOps to on- premise and cloud
+                            infrastructure. I have guided teams as the product manager for the FNZ/JHC FIGARO web, mobile and REST API product set. I have championed the use of open source software and the engagement in OSS and DevOps communities.
+                        </p>
+                        <p class="pt-5">
+                            As a partner/director I have helped create a successful Fintech company and experienced its growth phases from a start-up of 10 people to its current 250+ employees. All of this, from day one, has been done in close collaboration with clients. I have
+                            extensive experience in BA, consultant and pre-sales roles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>sss
 
-            <div class="box-content flex-grow pl-10 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Software Architect
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Web and mobile apps</li>
-                  <li>APIs</li>
-                  <li>Distributed, complex systems and integrations</li>
-                  <li>Containers and container management systems</li>
-                  <li>Cloud-native applications (micro-services, service meshes)</li>
-                </ul>
-              </p>           
+        <!-- ====================== -->
+        <!-- SECTION 3 - EXPERIENCE -->
+        <!-- ====================== -->
+        <div class="section fp-auto-height-responsive border-top" data-anchor="experience">
+            <!-- Heading -->
+            <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
+                Experience
             </div>
 
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Software Development Life Cycle
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Agile software development (Scrum, Kanban)</li>
-                  <li>Source control (GIT) and release strategies</li>
-                  <li>CI/CD (Jenkins)</li>
-                </ul>
-              </p>           
+            <!-- Content -->
+            <div class="container px-6">
+                <div class="flex flex-col mt-12 mb-5 ml-12">
+
+                    <div class="box-content flex-grow pl-10 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Infrastructure Architect and Consultant &commat; FNZ/JHC Systems Ltd
+                            <a href="https://www.jhc.financial" class="font-normal text-green-700">
+                                <span class="pl-5 pr-1 align-middle fas fa-link">
+                  </span> https://www.jhc.financial
+                            </a>
+                        </p>
+                        <p class="text-base text-gray-600 section-body-text">
+                            2001 - 2019
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Designed and implemented the infrastructure for on-premise, managed service (private cloud) and public cloud deployments of the FNZ/JHC FIGARO wealth management system. Covering networking, server specifications, 3rd-party communications, security, virtualisation,
+                            high availability, replication and disaster recovery. Directed technology reviews and upgrades to increase availability, scalability and to successfully drive down total cost of ownership.
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Pioneered the development of a DevOps culture through the introduction of Ansible automation, Docker, Kubernetes container management and the integration of Ops into development projects.
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Initiated and championed the provisioning of Infrastructure as Code (IaC).
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Facilitated pre-sales support covering infrastructure and product integrations.
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Product Manager &commat; FNZ/JHC Systems Ltd
+                        </p>
+                        <p class="text-base text-gray-600 section-body-text">
+                            2001 - 2019
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Product manager responsible for:
+                        </p>
+                        <p class="max-w-2xl pt-2 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>FNZ/JHC FIGARO web portal for retail & wealth management clients.</li>
+                                <li>FNZ/JHC FIGARO mobile app for wealth management clients.</li>
+                                <li>FNZ/JHC FIGARO REST API.</li>
+                            </ul>
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Directed product vision and roadmap strategy. Guided technical/UX/UI design governance, client and market research. Negotiated and secured project funding.
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            IT Manager &commat; JHC Systems Ltd
+                        </p>
+                        <p class="text-base text-gray-600 section-body-text">
+                            2007 - 2012
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            Supervised all internal IT including the design and implementation of LANs, WAN, network security, data centre co-location, data backup, disaster recovery, telephony, office moves, desktop standardisation, email, document management, IBM Power Systems
+                            and vendor management.
+                        </p>
+                    </div>
+                </div>
             </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Infrastructure
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Physical servers (Intel, AMD, IBM Power Systems)</li>
-                  <li>Virtualisation (VMWare, QEMU/KVM/libvirt, VirtualBox, Parallels)</li>
-                  <li>Storage (JBOD, RAID, LVM, GlusterFS)</li>
-                  <li>Networking (LAN, WAN, VPN, Software Defined Networks)</li>
-                  <li>Security (Network firewalls, application firewalls, AuthN, AuthZ)</li>
-                  <li>Operating systems (RHEL, CentOS, Ubuntu, MacOS, MS Windows, IBM i)</li>
-                </ul>
-              </p>           
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Public, private and hybrid clouds
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Kubernetes (RedHat Openshift, GCP+GKE, KubeSpray)</li>
-                  <li>Docker, Docker Compose, Docker Swarm</li>
-                  <li>OpenStack</li>
-                </ul>
-              </p>           
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Telemetry
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Loggging (Elasticsearch, Logstash, Kibana/Grafana, Splunk)</li>
-                  <li>Tracing (Zipkin)</li>
-                  <li>Metrics (Dropwizard, Prometheus, Grafana)</li>
-                  <li>Monitoring (Nagios, Grafana)</li>
-                </ul>
-              </p>           
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                DevOps
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Ansible</li>
-                  <li>CI/CD (Jenkins)</li>
-                </ul>
-              </p>           
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Languages
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Java</li>
-                  <li>Python</li>
-                  <li>Javascript</li>
-                  <li>Bash</li>
-                  <li>HTML/CSS</li>
-                </ul>
-              </p>           
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Product Management
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>Web apps</li>
-                  <li>Mobile apps</li>
-                  <li>REST APIs</li>
-                </ul>
-              </p>           
-            </div>
-
-            <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                Client Engagement
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                <ul class="ml-5 list-disc section-body-text">
-                  <li>On-site support and troubleshooting</li>
-                  <li>Pre-sales support and consultancy</li>
-                  <li>Software design consultancy and business analysis</li>
-                  <li>Infrastructure consultancy</li>
-                  <li>FNZ/JHC FIGARO system implementations</li>
-                  <li>FNZ/JHC FIGARO system integration projects</li>
-                </ul>
-              </p>           
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- ===================== -->
-      <!-- SECTION 5 - EDUCATION -->
-      <!-- ===================== -->
-      <div class="section fp-auto-height-responsive border-top" data-anchor="education">
-        <!-- Heading -->
-        <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
-          Education
         </div>
 
-        <!-- Content -->
-        <div class="container px-6">
-          <div class="flex flex-col mt-12 mb-5 ml-12">
-
-            <div class="box-content flex-grow pl-10 ml-10 border-l border-darkpink">
-              <p class="text-base font-semibold text-black">
-                University of Salford
-              </p>
-              <p class="text-base text-gray-600 section-body-text">
-                1984 - 1988
-              </p>
-              <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
-                1<sup>st</sup> BSc (Hons) Applied Physics with Electronics
-              </p>             
+        <!-- ================== -->
+        <!-- SECTION 4 - SKILLS -->
+        <!-- ================== -->
+        <div class="section fp-auto-height-responsive border-top" data-anchor="skills">
+            <!-- Heading -->
+            <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
+                Skills
             </div>
-           </div>
+
+            <!-- Content -->
+            <div class="container px-6">
+                <div class="flex flex-col mt-12 mb-5 ml-12">
+
+                    <div class="box-content flex-grow pl-10 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Software Architect
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Web and mobile apps</li>
+                                <li>APIs</li>
+                                <li>Distributed, complex systems and integrations</li>
+                                <li>Containers and container management systems</li>
+                                <li>Cloud-native applications (micro-services, service meshes)</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Software Development Life Cycle
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Agile software development (Scrum, Kanban)</li>
+                                <li>Source control (GIT) and release strategies</li>
+                                <li>CI/CD (Jenkins)</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Infrastructure
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Physical servers (Intel, AMD, IBM Power Systems)</li>
+                                <li>Virtualisation (VMWare, QEMU/KVM/libvirt, VirtualBox, Parallels)</li>
+                                <li>Storage (JBOD, RAID, LVM, GlusterFS)</li>
+                                <li>Networking (LAN, WAN, VPN, Software Defined Networks)</li>
+                                <li>Security (Network firewalls, application firewalls, AuthN, AuthZ)</li>
+                                <li>Operating systems (RHEL, CentOS, Ubuntu, MacOS, MS Windows, IBM i)</li>
+                                <li>Infrastructure as Code (Ansible, YAML, Terraform)</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Public, private and hybrid clouds
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Kubernetes (RedHat Openshift, GCP+GKE, KubeSpray)</li>
+                                <li>Docker, Docker Compose, Docker Swarm</li>
+                                <li>OpenStack</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Telemetry
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Loggging (Elasticsearch, Logstash, Kibana/Grafana, Splunk)</li>
+                                <li>Tracing (Zipkin)</li>
+                                <li>Metrics (Dropwizard, Prometheus, Grafana)</li>
+                                <li>Monitoring (Nagios, Grafana)</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            DevOps
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Ansible</li>
+                                <li>CI/CD (Jenkins)</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Languages
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Javascript</li>
+                                <li>Bash</li>
+                                <li>HTML/CSS</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Product Management
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>Web apps</li>
+                                <li>Mobile apps</li>
+                                <li>REST APIs</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="box-content flex-grow pl-10 mt-8 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            Client Engagement
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            <ul class="ml-5 list-disc section-body-text">
+                                <li>On-site support and troubleshooting</li>
+                                <li>Pre-sales support and consultancy</li>
+                                <li>Software design consultancy and business analysis</li>
+                                <li>Infrastructure consultancy</li>
+                                <li>FNZ/JHC FIGARO system implementations</li>
+                                <li>FNZ/JHC FIGARO system integration projects</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
         </div>
 
-      </div>
+        <!-- ===================== -->
+        <!-- SECTION 5 - EDUCATION -->
+        <!-- ===================== -->
+        <div class="section fp-auto-height-responsive border-top" data-anchor="education">
+            <!-- Heading -->
+            <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
+                Education
+            </div>
 
-      <!-- =================== -->
-      <!-- SECTION 6 - CONTACT -->
-      <!-- =================== -->
-      <div class="section fp-auto-height-responsive border-top" data-anchor="contact">
-        <!-- Heading -->
-        <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
-          Contact
+            <!-- Content -->
+            <div class="container px-6">
+                <div class="flex flex-col mt-12 mb-5 ml-12">
+                    <div class="box-content flex-grow pl-10 ml-10 border-l border-darkpink">
+                        <p class="text-base font-semibold text-black">
+                            University of Salford
+                        </p>
+                        <p class="max-w-2xl pt-4 text-base text-justify text-black section-body-text">
+                            1<sup>st</sup> BSc (Hons) Applied Physics with Electronics
+                        </p>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <!-- Content -->
-        <div class="container px-6">
-          <div class="flex flex-col w-1/2 mt-12 mb-5 ml-12">
-
-            <div class="box-content mb-10 ml-20">
-              <p class="max-w-2xl text-2xl text-white section-intro">
-                I'm based in London, UK <br/>
-                Drop me a line!
-              </p>
+        <!-- =================== -->
+        <!-- SECTION 6 - CONTACT -->
+        <!-- =================== -->
+        <div class="section fp-auto-height-responsive border-top" data-anchor="contact">
+            <!-- Heading -->
+            <div class="box-content object-left-top w-1/3 pb-5 mt-10 ml-20 text-4xl font-semibold tracking-widest uppercase section-heading text-darkpink">
+                Contact
             </div>
-            <div class="box-content p-5 ml-20 border-t border-gray-600">
-              <div class="flex inline-block text-base text-justify text-white section-body-text">
-                <span class="mt-auto mb-auto">
+
+            <!-- Content -->
+            <div class="container px-6">
+                <div class="flex flex-col w-1/2 mt-12 mb-5 ml-12">
+
+                    <div class="box-content mb-10 ml-20">
+                        <p class="max-w-2xl text-2xl text-white section-intro">
+                            I'm based in London, UK <br/> Drop me a line!
+                        </p>
+                    </div>
+                    <div class="box-content p-5 ml-20 border-t border-gray-600">
+                        <div class="flex inline-block text-base text-justify text-white section-body-text">
+                            <span class="mt-auto mb-auto">
                   <a class="text-white text-opacity-50 hover:text-opacity-100" href="https://linkedin.com/in/loveaj">
                     <span class="pr-5 text-4xl align-middle fab fa-linkedin ">
-                    </span>
-                    Linkedin
-                  </a>
-                </span>
-              </div>
-            </div>
-            <div class="box-content p-5 ml-20">
-              <div class="flex inline-block text-base text-white section-body-text">
-                <span class="mt-auto mb-auto">
+                    </span> Linkedin
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="box-content p-5 ml-20">
+                        <div class="flex inline-block text-base text-white section-body-text">
+                            <span class="mt-auto mb-auto">
                   <a class="text-white text-opacity-50 hover:text-opacity-100" href="https://twitter.com/andrew_love">
                     <span class="pr-5 text-4xl align-middle fab fa-twitter-square">
-                    </span>
-                    Twitter
-                  </a>
-                </span>
-              </div>
-            </div>
-            <div class="box-content p-5 ml-20">
-              <div class="flex inline-block text-base text-white section-body-text">
-                <span class="mt-auto mb-auto">
+                    </span> Twitter
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="box-content p-5 ml-20">
+                        <div class="flex inline-block text-base text-white section-body-text">
+                            <span class="mt-auto mb-auto">
                   <a class="text-white text-opacity-50 hover:text-opacity-100" href="mailto:love.andrew.j@gmail.com">
                     <span class="pr-5 text-4xl align-middle fas fa-envelope-square">
-                    </span>
-                    Email
-                  </a>
-                </span>
-              </div>
-            </div>
+                    </span> Email
+                            </a>
+                            </span>
+                        </div>
+                    </div>
 
-            <div class="box-content p-5 ml-20 border-b border-gray-600">
-              <div class="flex inline-block text-base text-white section-body-text">
-                <span class="mt-auto mb-auto">
+                    <div class="box-content p-5 ml-20 border-b border-gray-600">
+                        <div class="flex inline-block text-base text-white section-body-text">
+                            <span class="mt-auto mb-auto">
                   <a class="text-white text-opacity-50 hover:text-opacity-100" href="assets/Andrew_Love_CV_2021.pdf">
                     <span class="pr-5 text-4xl align-middle fas fa-file-download">
-                    </span>
-                    Download my CV
-                  </a>
-                </span>
-              </div>
+                    </span> Download my CV
+                            </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Bouncy up prompt -->
-        <div class="box-content absolute bottom-0 ml-20">
-          <a href="#home">
-            <span class="text-4xl text-opacity-50 fas fa-chevron-circle-up animate-bounce text-darkpink hover:text-opacity-100">
+            <!-- Bouncy up prompt -->
+            <div class="box-content absolute bottom-0 ml-20">
+                <a href="#home">
+                    <span class="text-4xl text-opacity-50 fas fa-chevron-circle-up animate-bounce text-darkpink hover:text-opacity-100">
             </span>
-          </a>
+                </a>
+            </div>
         </div>
-      </div>
 
     </div>
     {{ content }}
     <script src="{{ site.data.manifest['indexpage.js'] }}"></script>
-  </body>
+</body>
+
 </html>
