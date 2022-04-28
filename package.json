@@ -20,7 +20,7 @@
     "style-loader": "^2.0.0",
     "tailwindcss": "^3.0.24",
     "url-loader": "^4.1.1",
-    "webpack": "^4.46.0",
+    "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-manifest-plugin": "^4.1.1"
   },
