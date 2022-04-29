@@ -13,7 +13,7 @@
     "cssnano": "^5.0.2",
     "file-loader": "^6.2.0",
     "fullpage.js": "^4.0.6",
-    "mini-css-extract-plugin": "^1.6.2",
+    "mini-css-extract-plugin": "^2.6.0",
     "postcss": "^8.4.12",
     "postcss-loader": "^4.3.0",
     "postcss-nested": "^5.0.5",
