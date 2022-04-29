@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/assets/pdf/Andrew_Love_CV_2021.pdf":
-/*!************************************************!*\
-  !*** ./src/assets/pdf/Andrew_Love_CV_2021.pdf ***!
-  \************************************************/
+/***/ "./src/assets/img/profile-portrait-circle.png":
+/*!****************************************************!*\
+  !*** ./src/assets/img/profile-portrait-circle.png ***!
+  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"Andrew_Love_CV_2021.pdf\");\n\n//# sourceURL=webpack:///./src/assets/pdf/Andrew_Love_CV_2021.pdf?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"profile-portrait-circle.png\");\n\n//# sourceURL=webpack:///./src/assets/img/profile-portrait-circle.png?");
 
 /***/ })
 
@@ -92,7 +92,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/assets/pdf/Andrew_Love_CV_2021.pdf"](0, __webpack_exports__, __webpack_require__);
+/******/ 	__webpack_modules__["./src/assets/img/profile-portrait-circle.png"](0, __webpack_exports__, __webpack_require__);
 /******/ 	
 /******/ })()
 ;
