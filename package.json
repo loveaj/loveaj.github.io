@@ -1,9 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "prod": "NODE_ENV=production npx webpack",
-    "dev": "NODE_ENV=development npx webpack",
-    "watch": "NODE_ENV=development npx webpack --watch"
+    "prod": "NODE_ENV=production ./node_modules/.bin/webpack",
+    "dev": "NODE_ENV=development ./node_modules/.bin/webpack",
+    "watch": "NODE_ENV=development ./node_modules/.bin/webpack --watch"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",

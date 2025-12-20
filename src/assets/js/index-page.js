@@ -5,6 +5,20 @@ import fullpage from 'fullpage.js';
 // of fullpage.js for this file
 //import fullpage from 'fullpage.js/dist/fullpage.extensions.min';
 
+// Email obfuscation - decode email address
+function decodeEmail() {
+    const emailLink = document.getElementById('email-link');
+    if (emailLink) {
+        const user = emailLink.getAttribute('data-user');
+        const domain = emailLink.getAttribute('data-domain');
+        const email = user + '@' + domain;
+        emailLink.href = 'mailto:' + email;
+    }
+}
+
+// Initialize email decoding when DOM is ready
+document.addEventListener('DOMContentLoaded', decodeEmail);
+
 // Initializing it
 var fullPageInstance = new fullpage('#sitefullpage', {
     anchors: ['home', 'profile', 'experience', 'skills', 'education', 'contact'],
