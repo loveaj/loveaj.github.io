@@ -14,7 +14,7 @@ module.exports = {
         linkicon: path.resolve(__dirname, './src/assets/img/link-solid.png'),
         linkedinicon: path.resolve(__dirname, './src/assets/img/linkedin-logo.png'),
         portraitimg: path.resolve(__dirname, './src/assets/img/profile-portrait-circle.png'),
-        cvdoc: path.resolve(__dirname, './src/assets/pdf/Andrew_Love_CV_2021.pdf'),
+        cvdoc: path.resolve(__dirname, './src/assets/pdf/Andrew_Love_CV_2025.pdf'),
     },
     output: {
         path: path.resolve(__dirname, './assets/'),
