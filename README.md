@@ -31,10 +31,10 @@ or
 `npm run prod`  
 
 ### Local build static pages - Jekyll
-`bundle jekyll build`  
+`bundle exec jekyll build`  
 
 ### Local run local webserver - Jekyll
-`bundle jekyll serve`  
+`bundle exec jekyll serve`  
 
 ### Deploy live
 Commit all staged changes to GitHub  
