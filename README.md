@@ -40,7 +40,7 @@ or
 Commit all staged changes to GitHub  
 `git commit -am "commit message"`  
 
-Github uses GitHub Actions to build and deploy. (see repo Settings > Pages)
+Github uses master as source for build
 
 Note that the local Jekyll build output in directory `_site` is not under source control, see `.gitignore`.
 
